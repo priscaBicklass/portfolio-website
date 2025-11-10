@@ -44,7 +44,7 @@
             passionate about building intuitive user interfaces and uncovering
             insights from data.
           </p>
-          s
+
           <a href="#projects" class="cta-button">Check out my work!</a>
         </div>
         <div class="hero-image">
@@ -170,15 +170,17 @@
               <div class="image-placeholder">Project Screenshot</div>
             </div>
             <div class="project-content">
-              <h3>E-Commerce Dashboard</h3>
+              <h3>MindSpace Wellness Platform</h3>
               <p>
-                A responsive dashboard for managing online store operations with
-                real-time analytics.
+                A mental health support website offerin daily mood
+                tracking,motivational resources,and therapy tools to promote
+                mental wellness
               </p>
               <div class="project-tech">
-                <span class="tech-tag">React</span>
+                <span class="tech-tag">HTML5</span>
                 <span class="tech-tag">CSS3</span>
-                <span class="tech-tag">Chart.js</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">LocalStorage API</span>
               </div>
               <div class="project-links">
                 <a href="#" class="project-link">
@@ -255,57 +257,59 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
-      <div class="container">
-        <h2 class="section-title">Get In Touch</h2>
-        <p class="contact-description">
-          I'm currently looking for new opportunities. Whether you have a
-          question or just want to say hi, my inbox is always open!
-        </p>
-        <div class="contact-content">
-          <form class="contact-form">
-            <div class="form-group">
-              <input type="text" id="name" name="name" required />
-              <label for="name">Name</label>
-            </div>
-            <div class="form-group">
-              <input type="email" id="email" name="email" required />
-              <label for="email">Email</label>
-            </div>
-            <div class="form-group">
-              <input type="text" id="subject" name="subject" required />
-              <label for="subject">Subject</label>
-            </div>
-            <div class="form-group">
-              <textarea
-                id="message"
-                name="message"
-                rows="5"
-                required
-              ></textarea>
-              <label for="message">Message</label>
-            </div>
-            <button type="submit" class="submit-btn">Send Message</button>
-          </form>
-          <div class="contact-info">
-            <div class="contact-item">
-              <i class="fas fa-envelope"></i>
-              <span>priscabicklass800@gmail.com</span>
-            </div>
-            <div class="social-links">
-              <a href="#" class="social-link">
-                <i class="fab fa-linkedin"></i>
-              </a>
-              <a href="#" class="social-link">
-                <i class="fab fa-github"></i>
-              </a>
-              <a href="#" class="social-link">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </div>
-          </div>
+<section id="contact" class="contact">
+  <div class="container">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="contact-description">
+      I'm currently looking for new opportunities. Whether you have a
+      question or just want to say hi, my inbox is always open!
+    </p>
+
+    <div class="contact-content">
+      <!-- ✅ Netlify-enabled form -->
+      <form name="contact" method="POST" data-netlify="true" class="contact-form">
+        <!-- Hidden input for Netlify form name -->
+        <input type="hidden" name="form-name" value="contact">
+
+        <div class="form-group">
+          <input type="text" id="name" name="name" required />
+          <label for="name">Name</label>
+        </div>
+
+        <div class="form-group">
+          <input type="email" id="email" name="email" required />
+          <label for="email">Email</label>
+        </div>
+
+        <div class="form-group">
+          <input type="text" id="subject" name="subject" required />
+          <label for="subject">Subject</label>
+        </div>
+
+        <div class="form-group">
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <label for="message">Message</label>
+        </div>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>priscabicklass800@gmail.com</span>
+        </div>
+
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/priscaBicklass" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
     </section>
 
     <!-- Footer -->
@@ -314,7 +318,7 @@
         <p>&copy; 2025 Prisca Bicklass. Built with passion.</p>
         <div class="footer-social">
           <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="https://github.com/priscaBicklass"><i class="fab fa-github"></i></a>
           <a href="#"><i class="fab fa-twitter"></i></a>
         </div>
       </div>
